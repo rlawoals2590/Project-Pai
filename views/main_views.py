@@ -40,7 +40,11 @@ def uploader_file():
         AImoduleName = randomName+f.filename
 
         return render_template('index.html') 
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 47182d3aa153fa54d16fd0a4b1584b9c7c32f278
 
 #업로드된 이미지 삭제시 페이지 이동
 @bp.route('/main')

@@ -31,7 +31,6 @@
 
         <!--파일 업로드 폼-->
         <form action="http://127.0.0.1:8000/main" method="POST" enctype="multipart/form-data">
-
             <!--박스 클릭시 사진 업로드-->
             <div class="image-upload-wrap">
                 <input class="file-upload-input" type='file' onmouseover="return turnOnWindowYellow();" onmouseout="return turnOffWindow();" onchange="readURL(this);" accept="image/*" name="file" />
@@ -44,25 +43,40 @@
             <button class="file-upload-btn" type="button" onmouseover="return turnOnWindowYellow();" onmouseout="return turnOffWindow();" onclick="$('.file-upload-input').trigger( 'click' )">
                 <a class="file-upload-btn-text">UPLOAD IMAGE 💾</a>
             </button>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 47182d3aa153fa54d16fd0a4b1584b9c7c32f278
             <div class="img-uploaded-action">
                 <!--업로드된 사진을 지우는 버튼-->
                 <div class="file-upload-content-2">
                     <div class="image-title-wrap file-edit-icon">
                         <button type="button" onmouseover="return turnOnWindowRed();" onmouseout="return turnOffWindow();"
                             class="remove-image preview-de">
+<<<<<<< HEAD
                             Remove Uploaded
+=======
+                            Remove Uploaded Image
+>>>>>>> 47182d3aa153fa54d16fd0a4b1584b9c7c32f278
                         </button>
                     </div>
                 </div>
 
+<<<<<<< HEAD
              <!--업로드된 사진을 서버로 보내는 버튼-->
              <input class="file-upload-to-server" onmouseover="return turnOnWindowGreen();"
              onmouseout="return turnOffWindow();" type="submit" value="ANALYZE PHOTO">
+=======
+                <!--업로드된 사진을 서버로 보내는 버튼-->
+                <input class="file-upload-to-server" onmouseover="return turnOnWindowGreen();"
+                    onmouseout="return turnOffWindow();" type="submit" value="ANALYZE PHOTO">
+>>>>>>> 47182d3aa153fa54d16fd0a4b1584b9c7c32f278
 
-            <!--업로드된 이미지가 들어가게 됨-->
-            <div class="file-upload-content">
-                <img class="file-upload-image" src="#" alt="your image" />
+                <!--업로드된 이미지가 들어가게 됨-->
+                <div class="file-upload-content">
+                    <img class="file-upload-image" src="#" alt="your image" />
+                </div>
             </div>
         </form>
 
